@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "34cb835a-8888-4ddc-8b14-8fe40a9e979a",
+		"name": "Integração ViaCEP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42703690"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/product/availability?id=p1&cep=08773380",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"product",
+						"availability"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "p1"
+						},
+						{
+							"key": "cep",
+							"value": "08773380"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
